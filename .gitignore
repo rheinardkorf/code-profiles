@@ -1,0 +1,57 @@
+.DS_Store
+!.gitignore
+
+*/ext
+*/data/machineid
+*/data/Network*State
+*/data/Cookies*
+*/data/Transport*
+*/data/*.sock
+*/data/storage.json
+*/data/rapid_render.json
+*/data/languagepacks.json
+
+*/data/*/*
+
+!*/data/User/globalStorage
+!*/data/User/snippets
+!*/data/User/settings.json
+!*/data/User/keybindings.json
+
+
+
+# Go
+# godev/ext/
+
+# WP
+# wpdev/ext/
+# wpdev/data/*.*
+# wpdev/data/*/*
+# # wpdev/data/User/*
+# !wpdev/data/User/settings.json
+
+# !*/settings.json
+# !*/wpdev/data/User
+
+
+# vscode_default/*
+# !vscode_default/User
+
+# godev/*
+# !godev/data/User
+
+# wpdev/data*
+# wpdev/ext/*
+# # !wpdev/data
+# # !wpdev/data/User
+# # !wpdev/data/User/snippets
+# !*/wpdev/data/User/keybindings.json
+# !wpdev/data/User/settings.json
+
+# phpdev/*
+# !phpdev/data/User
+
+# jsdev/*
+# !jsdev/data/User
+
+# !install_plugins.sh

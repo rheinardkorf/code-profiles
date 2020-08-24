@@ -1,0 +1,74 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "cmd+r n",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "cmd+r f",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "cmd+r cmd+r",
+        "command": "workbench.action.debug.run",
+        "when": "!inDebugMode"
+    },
+    // { "key": "cmd+shift+f", "command": "actions.findWithSelection" },
+    {
+        "key": "cmd+e",
+        "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
+    },
+    // {
+    //     "key": "cmd+shift+e",
+    //     "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
+    // },
+    {
+        "key": "cmd+. cmd+n",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "cmd+. cmd+1",
+        "command": "workbench.action.terminal.focusAtIndex1"
+    },
+    {
+        "key": "cmd+. cmd+2",
+        "command": "workbench.action.terminal.focusAtIndex2"
+    },
+    {
+        "key": "cmd+. cmd+3",
+        "command": "workbench.action.terminal.focusAtIndex3"
+    },
+    {
+        "key": "cmd+. cmd+4",
+        "command": "workbench.action.terminal.focusAtIndex4"
+    },
+    {
+        "key": "cmd+. cmd+5",
+        "command": "workbench.action.terminal.focusAtIndex5"
+    },
+    {
+        "key": "cmd+. cmd+6",
+        "command": "workbench.action.terminal.focusAtIndex6"
+    },
+    {
+        "key": "cmd+. cmd+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "alt+cmd+,",
+        "command": "workbench.action.openSettings2"
+    },
+    {
+        "key": "cmd+k cmd+e",
+        "command": "workbench.files.action.collapseExplorerFolders"
+    },
+    {
+        "key": "ctrl+alt+cmd+g",
+        "command": "workbench.view.extension.gitlens"
+    },
+    // {
+    //     "key": "ctrl+cmd+e",
+    //     "command": "mysql.runQuery",
+    //     "when": "editorLangId == 'sql'"
+    // },
+]

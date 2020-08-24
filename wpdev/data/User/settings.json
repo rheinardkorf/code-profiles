@@ -1,0 +1,69 @@
+{
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#01417e",
+        "sideBar.background": "#01427e48",
+        "activityBar.background": "#01417e"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+    "editor.fontSize": 14,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "workbench.editor.showTabs": false,
+    "workbench.fontAliasing": "auto",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.settings.editor": "json",
+    "workbench.editor.tabCloseButton": "off",
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": 0,
+    "zenMode.centerLayout": false,
+    "terminal.integrated.fontSize": 14,
+    "files.defaultLanguage": "markdown",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.activityBar.visible": false,
+    // PHP/WORDPRESS  —————————————————————————————  
+	// "php.suggest.basic": false,
+	// "intelephense.format.enable": false,
+	"[php]": {
+		// "editor.formatOnSave": false,
+		// "editor.formatOnPaste": false,
+		"editor.defaultFormatter": "persoderlind.vscode-phpcbf"
+	},
+	// PHPCS.
+	"phpcs.executablePath": "/usr/local/bin/phpcs",
+	"phpcs.standard": "WordPress",
+	"phpcs.enable": true,
+	// PHPCBF.
+	"phpcbf.onsave": true,
+	"phpcbf.standard": "WordPress",
+	"phpcbf.executablePath": "/usr/local/bin/phpcbf",
+	"phpcbf.enable": true,
+	// PHP Files.
+	"files.associations": {
+		".php_cs": "php",
+		".php_cs.dist": "php",
+		// Super important, otherwise intelephense will not auto-index your project.
+		"*.php": "php"
+	},
+	"phpcs.ignorePatterns": [
+		"*/vendor/*", 
+		"*/vendors/*",
+		"*/wp-admin/*",
+		"*/wp-includes/*",
+	],
+	// Save and Run.
+	"saveAndRun": {
+		"commands": [
+			{
+				"match": "\\.php$",
+				"cmd": "phpcbf -q --standard='WordPress' ${file}",
+				"silent": true
+			}
+		]
+	},
+    // Beta
+    "debug.javascript.usePreview": true 
+}

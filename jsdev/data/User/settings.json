@@ -1,0 +1,27 @@
+{
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#b9a702",
+        "sideBar.background": "#b9a70213",
+        "activityBar.background": "#b9a702"
+    },
+    "workbench.sideBar.location": "right",
+    "workbench.editor.enablePreview": false,
+    "markdown.extension.preview.autoShowPreviewToSide": false,
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "Hack, Menlo, Monaco, 'Courier New', monospace, 'Apple Color Emoji'",
+    "editor.fontSize": 14,
+    "editor.cursorStyle": "line",
+    "editor.cursorBlinking": "solid",
+    "workbench.editor.showTabs": false,
+    "workbench.fontAliasing": "auto",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.settings.editor": "json",
+    "workbench.editor.tabCloseButton": "off",
+    "explorer.openEditors.visible": 0,
+    "window.zoomLevel": 0,
+    "zenMode.centerLayout": false,
+    "terminal.integrated.fontSize": 14,
+    "files.defaultLanguage": "markdown",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "workbench.activityBar.visible": false,
+}
